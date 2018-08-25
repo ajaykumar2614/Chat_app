@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="http://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <title>Chat App </title>
+</head>
+<body>
+
+<header> <h1> ChatHunt </h1></header>
+<section>
+    <div id="change_username">
+        <input type="text" id="username">
+        <button id="send_usename" type="button">Username </button>
+    </div>
+
+</section>
+
+<section id="chatroom">
+    <section id="feedback"></section>
+</section>
+
+<section id="input_zone">
+    <input type="text" class="vertical" id="message">
+    <button id="send_message" class="vertical" type="button">Send Message</button>
+
+
+</section>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="chat.js"></script>
+
+</body>
+
+
+</html>
